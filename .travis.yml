@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy: 
+  provider: heroku
+  api_key:
+    secure: HfnOU0eu7gA3mKGcKe1k9KXa53lwsBWAma59YBNVexMX7ZaoxEnNj5H95Q+kwDFhZuhE4/br6zt1gQGopoB3StmVA3SxHdfLwgjwrVghKYAJhaYQpdcWe2ijxEBEc02itmG19+PlL3abvBYvyyNb14YXa4T5EGBR58HQfYvi0Q6M8LOWdFKBI5/TJQuiBa48v8LSR4kBAperfNhDAU6R5jyfNXWVNlnm8MsErWYuC7+uA3/XuO8028D9FqbFHC1b16MAiYs7WPAvGduFEsRjorC/Vo0uszi6VvVMVcAHE+g9ETpAQLVafSGtQMitrQCvCVfT2SlS5jdpNMoxpUQin+R7CJawCnOS+touvtufOTLva3NyM3pjgeXWy2UNKm3o9n+rYHEliV01SPdh0bTOSA6XmVksUHD86rFwcWTfuewaaiMbiFkDnKDX4jC0++D6MKTqWYROeoBsaCYrdgioGux/heYjOunAYu9JGb6+we/Qc72cix2K2YLIJRNlAWASETt3Y40w8UChNPsnnxQOckxlwoqeZ/cmnKYnFwU5ZWrtLbxPkWY+MZxpnD/GWBIJH1njb5y7bcDliSJDXLHJvlR8VDtTE7F6tz2XdBWCKMqrAjqmK1+u5FKXtgfYsqtakMZd9EhjWmq6drzptegTiVPRQkz9t9BW/b9h+8t6bVA=
+  app: https://tranquil-fortress-93010.herokuapp.com/
+  on:
+    repo: benparman/node-shopping-list-integration-tests
